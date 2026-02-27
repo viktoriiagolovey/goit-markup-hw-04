@@ -412,7 +412,7 @@ padding: 40px 32px 0 32px;
 
 }
 
-.portfolio-thumb:hover .overlay-text {
+.portfolio-item:hover .overlay-text {
 transform: translateY(0);
 }
 
