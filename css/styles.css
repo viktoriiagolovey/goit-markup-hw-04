@@ -381,32 +381,39 @@ a {
   width: 360px;
   height: 420px;
 }
-.overlay-text{
-  font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-}
-.box {
+.portfolio-thumb {
   position: relative;
-   overflow: hidden;
+  overflow: hidden;
+  
+   
 }
 
-.overlay {
+.overlay-text{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
-  transform: translateX(-100%);
-  transition: transform 250ms ease-in-out;
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+transform: translateY(100%);
+transition: transform 250ms linear;
+background-color: #4d5ae5 ;
+width: 360px;
+height: 300px;
+padding: 40px 32px 0 32px;
+
+
 }
 
-.box:hover .overlay {
-  transform: translateX(0);
+.portfolio-thumb:hover .overlay-text {
+transform: translateY(0);
 }
+
+
 
 /* ------ footer section -----*/
 .page-footer {
