@@ -414,6 +414,7 @@ padding: 40px 32px 0 32px;
 
 .portfolio-item:hover .overlay-text {
 transform: translateY(0);
+
 }
 
 
